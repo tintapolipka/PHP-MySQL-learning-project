@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: black;
+    margin: 0;
+    text-align: right;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    line-height: 45px;
+}
+
+#content{
+    padding: 20px;
+}
+
+#footer{
+    padding: 20px;
+}
+
+#loginmenu{
+    display: flex;
+    flex-direction: column;
+}
+
+#loginmenu label, input, a, option, select{
+    margin: 10px;
+    padding: 10px;
+}
+
+#loginmenu a{
+    text-align: center;
+}
+
+#loginmenu label{
+    font-size: 1.2em;
+}
+
+.error{
+    color:red;
+    border: 3px solid red;
+    padding: 10px;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+table{
+    margin-top:20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, td{
+ border: 1px solid black;
+ padding: 10px;
+}
+
+table th{
+    background-color: blanchedalmond;
+   }

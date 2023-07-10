@@ -1,0 +1,10 @@
+INSERT INTO users (id,email,password,firstname,lastname) VALUES ('33e9f9ee-d61b-4ff8-9402-2db09846965e', 'email@ez.jo', '248B646537648C1FBDEB42B56771DBDB42129E8BAB527FF551A1F49CE499464F', 'Zoltán', 'Géza' );
+
+
+
+SELECT ads.id, ads.name,ads.description, ads.price, ads.category, users.email, users.firstname, users.lastname FROM `ads` INNER JOIN users ON ads.owner_id=users.id;
+
+
+$sql = "SELECT ads.id, ads.name,ads.description, ads.price, ads.category, users.email, users.firstname, users.lastname FROM `ads` INNER JOIN users ON ads.owner_id=users.id;";
+
+$sql = "SELECT DISTINCT category FROM ads;";
